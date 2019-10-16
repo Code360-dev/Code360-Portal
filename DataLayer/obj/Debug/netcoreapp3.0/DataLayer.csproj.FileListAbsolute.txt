@@ -1,0 +1,5 @@
+C:\Users\HASSAN\source\repos\Code360 Portal\DataLayer\bin\Debug\netcoreapp3.0\DataLayer.deps.json
+C:\Users\HASSAN\source\repos\Code360 Portal\DataLayer\bin\Debug\netcoreapp3.0\DataLayer.dll
+C:\Users\HASSAN\source\repos\Code360 Portal\DataLayer\obj\Debug\netcoreapp3.0\DataLayer.csprojAssemblyReference.cache
+C:\Users\HASSAN\source\repos\Code360 Portal\DataLayer\obj\Debug\netcoreapp3.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\HASSAN\source\repos\Code360 Portal\DataLayer\obj\Debug\netcoreapp3.0\DataLayer.AssemblyInfo.cs

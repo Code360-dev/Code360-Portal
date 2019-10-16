@@ -1,0 +1,8 @@
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\bin\Debug\netcoreapp2.2\DataAccess.deps.json
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\bin\Debug\netcoreapp2.2\DataAccess.dll
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\bin\Debug\netcoreapp2.2\DataAccess.pdb
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\obj\Debug\netcoreapp2.2\DataAccess.csprojAssemblyReference.cache
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\obj\Debug\netcoreapp2.2\DataAccess.AssemblyInfoInputs.cache
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\obj\Debug\netcoreapp2.2\DataAccess.AssemblyInfo.cs
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\obj\Debug\netcoreapp2.2\DataAccess.dll
+C:\Users\HASSAN\source\repos\Code360 Portal\DataAccess\obj\Debug\netcoreapp2.2\DataAccess.pdb
