@@ -34,6 +34,13 @@ namespace Presentation
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            //Add Swagger Service
+            services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "SwaggerApi", Version = "v1" });
+            });
+
+            //Add Cors Service
             services.AddCors(options =>
             {
                 options.AddPolicy("EnableCORS", builder =>
@@ -99,6 +106,17 @@ namespace Presentation
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            var swaggerOptions = new SwaggerOptions();
+            Configuration.GetSection(nameof(SwaggerOptions)).Bind(swaggerOptions);
+
+            app.UseSwagger(option => { option.RouteTemplate = swaggerOptions.JsonRoute; });
+
+            app.UseSwaggerUI(option =>
+            {
+                option.SwaggerEndpoint(swaggerOptions.UiEndpoint, swaggerOptions.Description);
+
+            });
             app.UseCors("EnableCORS"); 
             app.UseHttpsRedirection();
             app.UseAuthentication();
